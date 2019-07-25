@@ -1,0 +1,764 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Italian (Italy) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PAGE                BITMAP  DISCARDABLE     "res\\page.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AVI
+//
+
+IDR_PRINT               AVI     DISCARDABLE     "res\\file_dbl.avi"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HANDCUR             CURSOR  DISCARDABLE     "res\\cursor1.cur"
+#endif    // Italian (Italy) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Modern) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_LUCES               BITMAP  DISCARDABLE     "res\\luces.bmp"
+IDB_CANAL               BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\bitmap2.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "res\\bitmap7.bmp"
+IDB_INICIALIZA_FICHERO  BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_INICIALIZA_SELECCION BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_IMPRIMIR            BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDB_OCULTAR             BITMAP  DISCARDABLE     "res\\bmp00007.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\Splsh16.bmp"
+IDB_RESET               BITMAP  DISCARDABLE     "res\\reset.bmp"
+IDB_SWITCH              BITMAP  DISCARDABLE     "res\\res\\switch.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "res\\bitmap9.bmp"
+IDB_MTX15               BITMAP  DISCARDABLE     "res\\mtx-15.bmp"
+IDR_TECNICO             BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "res\\ltc32.bmp"
+IDB_OSD                 BITMAP  DISCARDABLE     "res\\osd.bmp"
+IDB_PULSADORES          BITMAP  DISCARDABLE     "res\\pulsadores.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 10, 3\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\SexShop.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.esp\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.esp\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SexShop.ico"
+IDR_SEXSHOTYPE          ICON    DISCARDABLE     "res\\SexShopDoc.ico"
+IDI_LED_APAGADO         ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_LED_ENCENDIDO       ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_LED_APAGADO_VERDE   ICON    DISCARDABLE     "res\\led_apag.ico"
+IDI_LED_ENCENDIDO_VERDE1 ICON    DISCARDABLE     "res\\ico00002.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_FILE_ERASE
+    BUTTON      ID_ARCHIVO_OCULTAR
+    SEPARATOR
+    BUTTON      ID_INICIAR_CABINA
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_TECNICO TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_SIMULACION_ON
+    BUTTON      ID_SIMULACION_OFF
+    SEPARATOR
+    BUTTON      ID_VIEW_MONITOR
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Archivo"
+    BEGIN
+        MENUITEM "&Salir",                      ID_APP_EXIT
+    END
+    POPUP "Matriz"
+    BEGIN
+        MENUITEM "Reiniciar",                   IDC_RESET
+    END
+    POPUP "Configuración"
+    BEGIN
+        MENUITEM "Configuración general...",    ID_EDICIN_TIEMPOMON
+    END
+    POPUP "Ay&uda"
+    BEGIN
+        MENUITEM "Acerca de MTX-15 Control",    ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Activar",                     ID_CABINA_ACTIVAR
+    MENUITEM "Desactivar",                  ID_CABINA_DESACTIVAR
+    MENUITEM SEPARATOR
+    MENUITEM "Habilitar",                   ID_CABINA_BLOQUEAR
+    MENUITEM "Deshabilitar",                ID_DESBLOQUEAR
+    MENUITEM SEPARATOR
+    MENUITEM "Reiniciar",                   ID_INICIAR_CABINA
+    MENUITEM SEPARATOR
+    MENUITEM "Propiedades ...",             ID_PROPIEDADESDECABINA
+END
+
+IDR_POPUP2 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Inicializar Todo el fichero ...", ID_FILE_ERASE
+    MENUITEM "Inicializar canal",           ID_INICIALIZARCANAL
+    MENUITEM "Imprimir ...",                ID_IMPRIMIR
+    MENUITEM "Ver historial ...",           ID_HISTORIAL_VERHISTORIAL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 284, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Acerca de VideoGest..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "MTX-15 Control V.1",IDC_STATIC,108,15,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) Electrónica Barcelona S.L.",IDC_STATIC,
+                    109,28,140,10
+    DEFPUSHBUTTON   "Aceptar",IDOK,245,7,32,14,WS_GROUP
+    CONTROL         143,IDC_STATIC,"Static",SS_BITMAP,7,7,88,79,
+                    WS_EX_TRANSPARENT
+END
+
+IDD_SEXSHOP_FORM DIALOG DISCARDABLE  0, 0, 226, 172
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    COMBOBOX        IDC_ENTRADAS,39,85,38,126,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Canal:",IDC_STATIC,20,87,18,8
+    COMBOBOX        IDC_SALIDAS,149,85,38,30,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Canal:",IDC_STATIC,130,87,18,8
+    GROUPBOX        "Entradas",IDC_STATIC,7,66,104,75
+    GROUPBOX        "Salidas",IDC_STATIC,115,66,104,75
+    CONTROL         "",IDC_DISPLAY_ENTRADAS,"Static",SS_BLACKFRAME,41,104,36,
+                    27
+    CONTROL         "",IDC_DISPLAY_SALIDAS,"Static",SS_BLACKFRAME,150,104,35,
+                    27
+    DEFPUSHBUTTON   "Enviar",IDC_ENVIAR,10,150,40,11
+    ICON            IDI_LED_APAGADO,IDC_LED_APAGADO,13,3,13,13,
+                    SS_REALSIZEIMAGE
+    CONTROL         "Button2",IDC_ENCENDER,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,5,20,35,30
+    CONTROL         "Button2",IDC_RESET,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    45,20,35,30
+    ICON            IDI_LED_APAGADO_VERDE,IDC_DATOS_RX,185,150,13,13,
+                    SS_REALSIZEIMAGE
+    LTEXT           "RX",IDC_STATIC,200,152,11,8
+    ICON            IDI_LED_APAGADO_VERDE,IDC_DATOS_TX,155,150,13,13,
+                    SS_REALSIZEIMAGE
+    LTEXT           "TX",IDC_STATIC,172,152,11,9
+    LTEXT           "Reset",IDC_STATIC,51,52,20,8
+    LTEXT           "Con/Des",IDC_STATIC,6,52,28,8
+    LTEXT           "Electrónica Barcelona,S.L.",IDC_STATIC,95,33,124,8
+    LTEXT           "MTX-15 Control V. 1",IDC_STATIC,96,20,102,8
+END
+
+IDD_CONFIG_COINTIME DIALOG DISCARDABLE  0, 0, 394, 141
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configuración MTX-15"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMPORT,130,85,48,65,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Ocultar nº canal",IDC_OCULTAR_CANAL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,277,20,65,10
+    EDITTEXT        IDC_SEGUNDOS_CREDITO,277,35,15,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Guardar",IDOK,145,119,37,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,185,119,37,14
+    RTEXT           "Total Entradas",IDC_STATIC,65,27,60,8
+    LTEXT           "Total Salidas",IDC_STATIC,85,57,41,8
+    GROUPBOX        "General",IDC_STATIC,5,5,179,110
+    RTEXT           "Puerto de comunicaciones:",IDC_STATIC,30,86,95,10
+    CONTROL         186,IDC_STATIC,"Static",SS_BITMAP,7,19,50,47
+    LTEXT           "Segundos antes de ocultar:",IDC_STATIC,297,37,85,10
+    GROUPBOX        "O.S.D.",IDC_STATIC,185,5,201,110
+    CONTROL         198,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,190,
+                    20,62,45
+    CONTROL         "Saltar canal si no existe señal de vídeo",
+                    IDC_SALTAR_CANALES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    190,85,151,10
+    COMBOBOX        IDC_TOTAL_CABINAS,130,25,48,65,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_TOTAL_CANALES,130,55,48,60,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_LISTPAGE1 DIALOG DISCARDABLE  0, 0, 251, 140
+STYLE DS_3DLOOK | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Cabecera:",IDC_STATIC,35,2,34,8
+    EDITTEXT        IDC_EDHEAD,73,15,170,30,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL
+    LTEXT           "Formato de página:",IDC_STATIC,7,71,62,8
+    EDITTEXT        IDC_EDPAGE,73,69,170,14,ES_AUTOHSCROLL
+    LTEXT           "Pie:",IDC_STATIC,56,94,13,8
+    COMBOBOX        IDC_CBFHEAD,73,0,135,83,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CBSHEAD,209,0,35,51,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDFOOTER,73,107,170,30,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL
+    COMBOBOX        IDC_CBFFOOTER,73,92,135,83,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CBSFOOTER,209,92,35,49,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Contenido:",IDC_STATIC,34,56,35,8
+    COMBOBOX        IDC_CBFCORPO,73,54,135,83,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CBSCORPO,209,54,35,52,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,31,51,213,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,31,89,213,1
+END
+
+IDD_LISTPAGE2 DIALOG DISCARDABLE  0, 0, 226, 140
+STYLE DS_3DLOOK | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         132,-1,"Static",SS_BITMAP,61,32,61,78
+    LTEXT           "&Superior:",-1,71,5,29,8
+    EDITTEXT        IDC_ED_MMUP,71,15,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",1019,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,111,15,10,
+                    14
+    LTEXT           "&Derecho:",-1,130,55,30,8
+    EDITTEXT        IDC_ED_MMDX,130,65,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",1020,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,170,65,10,
+                    14
+    LTEXT           "&Izquierdo:",-1,5,55,32,8
+    EDITTEXT        IDC_ED_MMSX,5,65,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",1022,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,45,65,10,
+                    14
+    LTEXT           "&Inferior",-1,71,110,22,8
+    EDITTEXT        IDC_ED_MMDOWN,71,120,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN4,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,111,120,
+                    10,14
+END
+
+IDD_LISTSETUP DIALOG DISCARDABLE  0, 0, 352, 170
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "List print"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "print ..",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,265,
+                    30,75,14
+    CONTROL         "cancel",IDCANCEL,"Button",BS_OWNERDRAW | WS_TABSTOP,265,
+                    70,75,14
+    CONTROL         "printer setup ..",IDC_BT_PRINTOPT,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,265,50,75,15
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,257,20,83,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,261,17,1,147
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",0x0,7,3,343,167
+END
+
+IDD_PRINT_STATUS DIALOGEX 0, 0, 197, 84
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Printing"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "cancel",IDCANCEL,145,69,51,14
+    CONTROL         "Animate1",IDC_ANIMATE1,"SysAnimate32",ACS_TRANSPARENT | 
+                    ACS_AUTOPLAY,0,0,195,35,WS_EX_TRANSPARENT
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",0x0,22,70,
+                    120,9
+    RTEXT           "100 %",IDC_PC,0,70,20,8
+    LTEXT           "Imprimiendo en %s",IDC_TEXT1,1,36,190,16
+    LTEXT           "Página %d de %d, %s ...",IDC_PAGES,1,56,190,10
+END
+
+IDD_CABINAS_PROP DIALOG DISCARDABLE  0, 0, 376, 255
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Propiedades de Cabina"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Static",IDC_CANAL_ACT,291,65,54,44,WS_BORDER
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_ARROWKEYS,347,65,11,44
+    COMBOBOX        IDC_NUMERO,37,16,48,140,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Fuera de servicio",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,100,17,68,10
+    EDITTEXT        IDC_CANAL_INICIAL,70,54,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CANAL_FINAL,70,69,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VALOR_1,70,83,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VALOR_2,70,99,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VALOR_DESCUENTO,85,115,40,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Borrar",IDC_BORRAR_ESTADISTICAS,140,199,30,14
+    PUSHBUTTON      "Activar / Desactivar",IDC_ENCENDER,188,50,68,15
+    PUSHBUTTON      "Test petición moneda = 1",IDC_PETICION_SI,188,70,86,14
+    PUSHBUTTON      "Test petición moneda = 0",IDC_PETICION_NO,188,89,86,14
+    EDITTEXT        IDC_ENVIAR_TEXTO,190,119,131,14,ES_UPPERCASE | 
+                    ES_WANTRETURN
+    PUSHBUTTON      "Enviar",IDC_ENVIAR,320,120,42,14
+    PUSHBUTTON      "Borrar texto",IDC_BORRAR_TEXTO,187,136,42,14
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_BOTH | WS_DISABLED | WS_TABSTOP,200,170,165,20
+    PUSHBUTTON      "Cerrar",IDCANCEL,10,233,50,14
+    PUSHBUTTON      "Aplicar cambios",IDC_APLICAR,68,233,57,14
+    LTEXT           "Cabina número:",IDC_STATIC,10,18,27,8
+    LTEXT           "Credito:",IDC_STATIC,20,173,24,8
+    LTEXT           "Canal:",IDC_STATIC,20,187,20,8
+    LTEXT           "Tiempo:",IDC_STATIC,20,202,26,8
+    LTEXT           "Acumulado:",IDC_STATIC,75,202,37,8
+    GROUPBOX        "Estadísticas",IDC_STATIC,10,159,170,60
+    LTEXT           "Importe:",IDC_STATIC,75,173,25,8
+    GROUPBOX        "Control Cabina",IDC_STATIC,183,38,186,115
+    GROUPBOX        "Configuración",IDC_STATIC,10,38,170,114
+    LTEXT           "Canal Inicial:",IDC_STATIC,15,56,44,8
+    LTEXT           "Canal Final:",IDC_STATIC,15,71,38,8
+    LTEXT           "Valor crédito 1€:",IDC_STATIC,15,86,52,8
+    LTEXT           "Valor crédito 2€:",IDC_STATIC,15,101,52,8
+    LTEXT           "Duración del credito 1€  (Segundos)",IDC_STATIC,15,115,
+                    70,18
+    LTEXT           "0",IDC_CREDITO,50,173,20,8
+    LTEXT           "1",IDC_CANAL,50,187,20,8
+    LTEXT           "00:00",IDC_TIEMPO,50,202,20,8
+    LTEXT           "0",IDC_IMPORTE,105,173,35,8
+    LTEXT           "00:00",IDC_ACUMULADO,115,202,20,8
+    ICON            IDI_LED_APAGADO_VERDE,IDC_LUZ_ESTADO,353,7,20,20
+    RTEXT           "Libre",IDC_ESTADO,299,13,53,8
+    LTEXT           "Conmutar Canal:",IDC_STATIC,293,54,53,8
+    LTEXT           "Enviar texto: (Máx 26 carácteres)",IDC_STATIC,188,110,
+                    101,8
+    GROUPBOX        "Nivel audio",IDC_STATIC,184,159,185,35
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0c0a04b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Aplicación MFC SexShop\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "SexShop\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MTX15.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Aplicación MTX15\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0a, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 277
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_SEXSHOP_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 219
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_CONFIG_COINTIME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 387
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_LISTPAGE1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_LISTPAGE2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 219
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_LISTSETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 345
+    END
+
+    IDD_PRINT_STATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_CABINAS_PROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 369
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CONFIG_COINTIME DLGINIT
+BEGIN
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x314d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x324d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x334d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x344d, "\000" 
+    IDC_TOTAL_CABINAS, 0x403, 3, 0
+0x3436, "\000" 
+    IDC_TOTAL_CABINAS, 0x403, 4, 0
+0x3231, 0x0038, 
+    IDC_TOTAL_CABINAS, 0x403, 4, 0
+0x3931, 0x0032, 
+    IDC_TOTAL_CABINAS, 0x403, 4, 0
+0x3532, 0x0036, 
+    IDC_TOTAL_CANALES, 0x403, 2, 0
+0x0031, 
+    IDC_TOTAL_CANALES, 0x403, 2, 0
+0x0032, 
+    IDC_TOTAL_CANALES, 0x403, 2, 0
+0x0033, 
+    IDC_TOTAL_CANALES, 0x403, 2, 0
+0x0034, 
+    0
+END
+
+IDD_SEXSHOP_FORM DLGINIT
+BEGIN
+    IDC_SALIDAS, 0x403, 2, 0
+0x0031, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "MTX-15 Control\n\nMTX-15 Control\n\n\nMTX-15 Control.Document\nMTX-15 Control Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "MTX15 Control"
+    AFX_IDS_IDLEMESSAGE     "Preparado"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "MAY"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "DESP"
+    ID_INDICATOR_OVR        "SOB"
+    ID_INDICATOR_REC        "GRB"
+    ID_INDICATOR_FECHA      "FECHA"
+    ID_INDICATOR_TOTAL      "TOTAL RECAUDO"
+    ID_INDICATOR_TARJETAS   "TOTAL_TARJETAS"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Inicialiaza el fichero\nBorrar todo"
+    ID_FILE_OPEN            "Abre un documento ya existente\nAbrir"
+    ID_FILE_CLOSE           "Cierra el documento activo\nCerrar"
+    ID_FILE_SAVE            "Guarda el documento activo\nGuardar"
+    ID_FILE_SAVE_AS         "Guarda el documento activo con un nuevo nombre\nGuardar como"
+    ID_FILE_PAGE_SETUP      "Cambia las opciones de impresión\nPreparar página"
+    ID_FILE_PRINT_SETUP     "Cambia las opciones de impresora y de impresión\nConfigurar impresora"
+    ID_FILE_PRINT           "Imprime el documento activo\nImprimir"
+    ID_FILE_PRINT_PREVIEW   "Muestra páginas completas\nPresentación preliminar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Muestra información del programa, número de versión y copyright\nAcerca de"
+    ID_APP_EXIT             "Sale de la aplicación; le pide que guarde los documentos\nSalir"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Abre este documento"
+    ID_FILE_MRU_FILE2       "Abre este documento"
+    ID_FILE_MRU_FILE3       "Abre este documento"
+    ID_FILE_MRU_FILE4       "Abre este documento"
+    ID_FILE_MRU_FILE5       "Abre este documento"
+    ID_FILE_MRU_FILE6       "Abre este documento"
+    ID_FILE_MRU_FILE7       "Abre este documento"
+    ID_FILE_MRU_FILE8       "Abre este documento"
+    ID_FILE_MRU_FILE9       "Abre este documento"
+    ID_FILE_MRU_FILE10      "Abre este documento"
+    ID_FILE_MRU_FILE11      "Abre este documento"
+    ID_FILE_MRU_FILE12      "Abre este documento"
+    ID_FILE_MRU_FILE13      "Abre este documento"
+    ID_FILE_MRU_FILE14      "Abre este documento"
+    ID_FILE_MRU_FILE15      "Abre este documento"
+    ID_FILE_MRU_FILE16      "Abre este documento"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Cambia a la siguiente sección de ventana\nSiguiente sección"
+    ID_PREV_PANE            "Vuelve a la sección de ventana anterior\nSección anterior"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Divide la ventana activa en secciones\nDividir"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Borra la selección\nBorrar"
+    ID_EDIT_CLEAR_ALL       "Borra todo\nBorrar todo"
+    ID_EDIT_COPY            "Copia la selección y la coloca en el portapapeles\nCopiar"
+    ID_EDIT_CUT             "Corta la selección y la coloca en el portapapeles\nCortar"
+    ID_EDIT_FIND            "Buscaa el texto especificado\nBuscar"
+    ID_EDIT_PASTE           "Inserta el contenido del portapapeles\nPegar"
+    ID_EDIT_REPEAT          "Repite la última acción\nRepetir"
+    ID_EDIT_REPLACE         "Reemplaza texto específico por otro texto\nReemplazar"
+    ID_EDIT_SELECT_ALL      "Selecciona todo el documento\nSeleccionar todo"
+    ID_EDIT_UNDO            "Deshace la última acción\nDeshacer"
+    ID_EDIT_REDO            "Rehace la acción que acaba de deshacerse\nRehacer"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Muestra u oculta la barra de herramientas\nAlternar Barra de herramientas"
+    ID_VIEW_STATUS_BAR      "Muestra u oculta la barra de estado\nAlternar Barra de estado"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Cambia el tamaño de la ventana"
+    AFX_IDS_SCMOVE          "Cambia la posición de la ventana"
+    AFX_IDS_SCMINIMIZE      "Reduce la ventana a un icono"
+    AFX_IDS_SCMAXIMIZE      "Agranda la ventana al tamaño completo"
+    AFX_IDS_SCNEXTWINDOW    "Cambia a la ventana del siguiente documento"
+    AFX_IDS_SCPREVWINDOW    "Cambia a la ventana del documento anterior"
+    AFX_IDS_SCCLOSE         "Cierra la ventana activa y le pide que guarde los documentos"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restaura la ventana a su tamaño normal"
+    AFX_IDS_SCTASKLIST      "Activa la lista de tareas"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Cierra el modo de presentación preliminar\nCancelar presentación preliminar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_ERASE           "Inicializa el fichero\nInicializa el fichero"
+    ID_BORRAR_CANAL         "Borra un canal\nBorra un canal"
+    ID_BORRAR_CABINA        "Borra una cabina\nBorra una cabina"
+    ID_ARCHIVO_DESACTIVAR   "Oculta la aplicación\nOcultar aplicación"
+    ID_ARCHIVO_OCULTAR      "Oculta la aplicación\nOculta la aplicación"
+    ID_VIEW_MONITOR         "Muestra la ventana de monitor"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_THREAD_ON            "Activa el thread de simulación"
+    ID_THREAD_OFF           "Pausa el thread de simulación"
+    ID_SIMULACION_ON        "Activa simulación de cabinas"
+    ID_SIMULACION_OFF       "Desactiva simulación de cabinas"
+    ID_INICIAR_CABINA       "Reiniciar cabina\nReiniciar cabina"
+END
+
+#endif    // Spanish (Modern) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE 10, 3
+#pragma code_page(1252)
+#endif
+#include "res\SexShop.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.esp\afxres.rc"          // Standard components
+#include "l.esp\afxprint.rc"        // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

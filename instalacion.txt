@@ -1,0 +1,30 @@
+﻿Instalación:
+---------------
+
+Ejecute el programa Setup.exe y siga al asistente.
+
+Una vez instalado el programa, ejecutelo y configure los parametros de 
+comunicacion:
+
+
+Configuración:
+--------------------
+
+Configuración->Configración general:
+Indique el total de entradas y salidas de su matriz y el puerto COM donde está conectada.
+
+Si le interesa que el número de canal desaparezca al cabo de x tiempo, active la casilla Ocultar nº Canal.
+Rellene la casilla Segundos antes de ocultar para configurar el tiempo.
+
+Haga click en GUARDAR.
+
+Operación:
+---------------
+
+Para conectarse con la matriz haga click en Con/Des, vuleva a hacer click para desconectar.
+La tecla RESET, reinicializa la matriz y coneta el canal de entradas 1 con en canal de salidas 1.
+
+Para conmuntar un canal de entrada con una salida seleccione la entrada en la lista de entradas o escribalo directamente y de la misma forma seleccione la salida.
+
+Una vez seleccionados haga click en "Enviar" o pulse <Enter>.
+

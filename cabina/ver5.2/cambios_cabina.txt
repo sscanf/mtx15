@@ -1,0 +1,13 @@
+-V3.0
+
+- Cuando detecta que no hay sincronismos, cambia al siguiente canal.
+- Activando las tres lineas de moneda se pone en modo técnico.
+- Mientras está desactivada o con menos de n contajes para desactivarse  activa la linea de monedero.
+
+-V4.0
+
+- Se han invertido canal+ y canal- (No correspondía con los esquemas)
+- El Stack actúa como FIFO, antes actuaba como LIFO.
+- Informa del número de canal siempre, aún cuando no tiene vídeo.
+
+-V5.2
